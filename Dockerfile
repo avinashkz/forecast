@@ -5,6 +5,6 @@
 FROM rocker/tidyverse
 
 # Installing other dependencies
-RUN Rscript -e "install.packages('optparse', repos = 'http://cran.us.r-project.org')"
-RUN Rscript -e "install.packages(c('feather', 'moments'), repos = 'http://cran.us.r-project.org')"
-RUN Rscript -e "install.packages(c('forecast', 'tseries', 'imputeTS'), repos = 'http://cran.us.r-project.org')"
+RUN Rscript -e "install.packages(c('optparse', 'doParallel'), repos = 'http://cran.us.r-project.org')"
+RUN Rscript -e "install.packages(c('feather', 'moments', 'strip'), repos = 'http://cran.us.r-project.org')"
+RUN Rscript -e "install.packages(c('forecast', 'tseries', 'imputeTS', 'quantreg'), repos = 'http://cran.us.r-project.org')"
