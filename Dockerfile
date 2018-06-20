@@ -21,8 +21,13 @@ RUN apt-get update \
 # get python package dependencies
 RUN apt-get install -y python3-tk
 
-
+# install numpy, pandas and scikit-learn
 RUN pip3 install numpy
 RUN pip3 install pandas
 RUN pip3 install scipy
 RUN pip3 install scikit-learn
+RUN pip3 install time
+RUN pip3 install pillow
+RUN pip3 install h5py
+RUN pip3 install keras
+RUN pip3 install pickle
