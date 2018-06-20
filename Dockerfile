@@ -29,5 +29,6 @@ RUN pip3 install scikit-learn
 RUN pip3 install time
 RUN pip3 install pillow
 RUN pip3 install h5py
+RUN pip3 install tensorflow
 RUN pip3 install keras
 RUN pip3 install pickle
