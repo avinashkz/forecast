@@ -28,6 +28,3 @@ RUN pip3 install numpy
 RUN pip3 install pandas
 RUN pip3 install scipy
 RUN pip3 install scikit-learn
-RUN pip3 install keras
-RUN pip3 install pickle
-RUN pip3 install imblearn
